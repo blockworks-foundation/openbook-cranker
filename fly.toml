@@ -1,0 +1,13 @@
+app = "openbook-crank"
+kill_signal = "SIGINT"
+kill_timeout = 5
+primary_region = "ams"
+
+[env]
+  # ENDPOINT_URL = secret
+  # KEYPAIR = secret
+  INTERVAL = "5000"
+  PRIORITY_QUEUE_LIMIT = "150"
+  PRIORITY_CU_PRICE = "10000"
+  PRIORITY_CU_LIMIT = "50000"
+  MAX_TX_INSTRUCTIONS = "2"
