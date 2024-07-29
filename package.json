@@ -20,14 +20,14 @@
     "cross-env": "^7.0.2",
     "ts-node": "^10.9.1",
     "typedoc": "^0.22.5",
-    "typescript": "^4.6.3"
+    "typescript": "5.5.4"
   },
   "prettier": {
     "singleQuote": true,
     "trailingComma": "all"
   },
   "dependencies": {
-    "@blockworks-foundation/mango-v4": "^0.17.24",
+    "@blockworks-foundation/mango-v4": "0.32.12",
     "@coral-xyz/borsh": "^0.28.0",
     "@project-serum/serum": "^0.13.65",
     "@solana/spl-token": "^0.1.6",
